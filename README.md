@@ -60,11 +60,18 @@ SteamManifestGrabber/
 
 ## 🚀 快速上手
 
-### 1. 准备底座文件
+### 1. 克隆 / 下载项目
+
+```bash
+git clone https://github.com/ZGQ-inc/SteamManifestGrabber.git
+cd SteamManifestGrabber
+```
 
 确保 `DepotDownloader/` 目录下放置了对应平台的魔改版二进制文件：
 * **Windows**：`DepotDownloader/DepotDownloader.exe`
 * **Linux**：`DepotDownloader/DepotDownloader`（需赋予执行权限：`chmod +x DepotDownloader/DepotDownloader`）
+
+或者直接下载带 DepotDownloader 的打包版本：[DepotDownloader_v1.10.zip](https://assets.zgqinc.gq/images/2026-08/DepotDownloader_v1.10.zip)
 
 ### 2. 交互式单游戏抓取
 
